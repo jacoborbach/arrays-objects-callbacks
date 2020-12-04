@@ -128,7 +128,9 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
   and the second item in the array being the odds array (all the odd values from numbersArray).
 */
 
-//Code Here
+function divider (numbersArray) {
+  
+}
 
 
 
@@ -189,7 +191,13 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
   Write a function called maker that creates an array, fills that array with numbers from 1 to 215, then returns the array.
 */
 
-//Code Here
+function maker () {
+  let newArray = [];
+  for (let i = 1; i <= 215; i++) {
+    newArray.push[i];
+  }
+  return newArray;
+}
 
 
 
@@ -205,7 +213,14 @@ var numbers = [5, '9', 16, 19, '25', '34', 48];
   Your output should look like this -> [15, 19, 26, 29, 35, 44, 58]
 */
   
-//Code Here
+function addTen (numbers) {
+  for (let i = 0; i <= numbers.length - 1; i++) {
+    if (numbers[i] ==
+    numbers[i] += 10
+  }
+  
+  return numbersPlusTen;
+}
 
 
 

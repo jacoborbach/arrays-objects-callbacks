@@ -128,9 +128,18 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
   and the second item in the array being the odds array (all the odd values from numbersArray).
 */
 
-function divider (numbersArray) {
-  
-}
+// function divider (numbersArray) {
+//   let evenArray = [];
+//   let oddArray = [];
+//   for (let i = 0; i <= numbersArray.length -1; i++) {
+//     if (numbersArray[i] % 2 === 0) {
+//       evenArray.push(numbersArray[i])
+//     } else {
+//       oddArray.push(numbersArray[i])
+//     }
+//   }
+//   return evenArray + oddArray
+// }
 
 
 
@@ -194,7 +203,7 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 function maker () {
   let newArray = [];
   for (let i = 1; i <= 215; i++) {
-    newArray.push[i];
+    newArray.push(i);
   }
   return newArray;
 }
@@ -215,8 +224,7 @@ var numbers = [5, '9', 16, 19, '25', '34', 48];
   
 function addTen (numbers) {
   for (let i = 0; i <= numbers.length - 1; i++) {
-    if (numbers[i] ==
-    numbers[i] += 10
+    
   }
   
   return numbersPlusTen;

@@ -222,13 +222,13 @@ var numbers = [5, '9', 16, 19, '25', '34', 48];
   Your output should look like this -> [15, 19, 26, 29, 35, 44, 58]
 */
   
-function addTen (numbers) {
-  for (let i = 0; i <= numbers.length - 1; i++) {
+// function addTen (numbers) {
+//   for (let i = 0; i <= numbers.length - 1; i++) {
     
-  }
+//   }
   
-  return numbersPlusTen;
-}
+//   return numbersPlusTen;
+// }
 
 
 

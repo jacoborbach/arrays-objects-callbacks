@@ -50,7 +50,7 @@ first(names, function(firstName){
 */
 
 function last (arr, cb) {
-  cb(arr.length-1);
+  return cb(arr[arr.length-1]);
 }
 
 // Do not edit the code below.
@@ -119,18 +119,17 @@ contains(names, 'Colt', function(result){
   Remove any duplicate values from the array, and invoke the callback with the modified array as an argument.
 */
 
-//  function uniq (arr, cb) {
-//     //have to add modified Array
-//     for (let i = 0; i<=arr.length -1;i++) {
-//       for (let j = arr.length-1; j => 0; j--) {
-//         if (arr[i] === arr[j]) {
-//           arr.pop(arr[i])
-//         }
-//       }
-//     }
-
-//   cb(arr)
-//   }
+ function uniq (arr, cb) {
+    //have to add modified Array
+    for (let i = 0; i < arr.length; i++) {
+      for (let j = i + 1; j < arr.length; j++) {
+        if (arr[i] === arr[j]) {
+          arr.splice(j,1)
+        }
+      }
+    }
+  return cb(arr)
+  }
 
 // Do not edit the code below.
 uniq(names, function(uniqArr){
